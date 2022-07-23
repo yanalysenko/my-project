@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.weather-app {
+  max-width: 720px;
+  margin: 50px auto;
+  box-shadow: 5px 5px 10px 2px #dadde1;
+  font-family: "Raleway", sans-serif;
+}
+.main-info {
+  color: #fff;
+  padding: 20px;
+}
+.today {
+  margin: 60px 0 40px 0;
+  font-size: 38px;
+}
+.city-temperature {
+  margin: 15px 0 40px 0;
+  font-size: 25px;
+}
+.exta-info {
+  margin-bottom: 30px;
+  font-size: smaller;
+}
+.weather-features {
+  list-style-type: none;
+}
+.bg-img {
+  background-image: url(https://mdbgo.io/ascensus/mdb-advanced/img/clouds.gif);
+  background-size: cover;
+}
+.app-title {
+  margin: 60px 0 30px 0;
+}
+.weather-form {
+  margin-bottom: 60px;
+}
+.week-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
